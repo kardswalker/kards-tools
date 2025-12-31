@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_wildcard",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_wildcard",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "45E5C63C4CEC30C05F947DA402703290",
+        "SourceString": "KARDS Wildcard",
+        "LocalizedString": "KARDS Wildcard"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1A",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Wildcards/Wildcard_back_lighter_po2.Wildcard_back_lighter_po2",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.056128,
+        "B": 0.056128,
+        "A": 0.0,
+        "Hex": "434343"
+      },
+      "LabelOutlineColor": {
+        "R": 0.610496,
+        "G": 0.539479,
+        "B": 0.291771,
+        "A": 1.0,
+        "Hex": "CDC293"
+      }
+    }
+  }
+]

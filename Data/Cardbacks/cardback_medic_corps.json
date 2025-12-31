@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_medic_corps",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_medic_corps",
+      "DisplayName": {
+        "Namespace": "items",
+        "Key": "cardback_medic_corps",
+        "SourceString": "Medic Corps",
+        "LocalizedString": "Medic Corps"
+      },
+      "DeckCodeID": "0Z",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/MedicCardbackVs1.MedicCardbackVs1",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/MedicCardbackVs2.MedicCardbackVs2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/MedicCardbackVs3.MedicCardbackVs3",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.136126,
+        "G": 0.145833,
+        "B": 0.069861,
+        "A": 0.0,
+        "Hex": "676B4B"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.62396,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DECF98"
+      }
+    }
+  }
+]

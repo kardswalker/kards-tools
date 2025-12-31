@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_north_irish_horse",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_north_irish_horse",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DA957FFA467F1BD776FE598EC6EB66A9",
+        "SourceString": "North Irish Horse",
+        "LocalizedString": "North Irish Horse"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "11",
+      "rarity": "ERarityEnum::Rare",
+      "factions": [
+        "EFactionEnum::Britain"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/25th_tank_brigade_a.25th_tank_brigade_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/25th_tank_brigade_b.25th_tank_brigade_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/25th_tank_brigade_c.25th_tank_brigade_c",
+          "SubPathString": ""
+        }
+      ]
+    }
+  }
+]

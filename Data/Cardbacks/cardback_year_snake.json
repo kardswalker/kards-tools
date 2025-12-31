@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_year_snake",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_year_snake",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "70F4C6324828E4FA14F182A32882AEA8",
+        "SourceString": "Year of the Snake",
+        "LocalizedString": "Year of the Snake"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1K",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/chinese_new_year_2025_a_po2.chinese_new_year_2025_a_po2",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/chinese_new_year_2025_b_po2.chinese_new_year_2025_b_po2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/chinese_new_year_2025_c_po2.chinese_new_year_2025_c_po2",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/chinese_new_year_icon.chinese_new_year_icon",
+        "SubPathString": ""
+      }
+    }
+  }
+]

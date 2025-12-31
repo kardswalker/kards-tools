@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_soviet",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_soviet",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "42A417BC46E95BBDF9827CAABCFF4412",
+        "SourceString": "Soviet Basic",
+        "LocalizedString": "Soviet Basic"
+      },
+      "ItemSource": "EItemSource::StarterItem",
+      "DeckCodeID": "1i",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicA.SovietBasicA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicB.SovietBasicB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicC.SovietBasicC",
+          "SubPathString": ""
+        }
+      ],
+      "ISBNTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/ISBNCardbacks/T_cardback_soviet_ISBN_512.T_cardback_soviet_ISBN_512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.109462,
+        "G": 0.049707,
+        "B": 0.021219,
+        "A": 0.0,
+        "Hex": "5D3F28"
+      }
+    }
+  }
+]

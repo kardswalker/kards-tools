@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_soviet_guards2",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_soviet_guards2",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7DD0166D40CD574B9D5CD8A720FBA7D1",
+        "SourceString": "Soviet Guards 2",
+        "LocalizedString": "Soviet Guards 2"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "18",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-A.Kards-Set-2-USSR-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-A.Kards-Set-2-USSR-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-B.Kards-Set-2-USSR-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-C.Kards-Set-2-USSR-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-D.Kards-Set-2-USSR-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USSR-E.Kards-Set-2-USSR-E",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.266356,
+        "G": 0.006995,
+        "B": 0.008568,
+        "A": 0.0,
+        "Hex": "8D1417"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.597202,
+        "B": 0.296138,
+        "A": 1.0,
+        "Hex": "DECB94"
+      }
+    }
+  }
+]

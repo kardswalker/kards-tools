@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_mobilebeta",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_mobilebeta",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A9967BAA4F77C4CFCE203EAD1A7EC892",
+        "SourceString": "Mobile Beta",
+        "LocalizedString": "Mobile Beta"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "10",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/T_cardback_mobilebeta_a.T_cardback_mobilebeta_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/T_cardback_mobilebeta_b.T_cardback_mobilebeta_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/T_cardback_mobilebeta_c.T_cardback_mobilebeta_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/T_cardback_icon_mobilebeta.T_cardback_icon_mobilebeta",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.043735,
+        "G": 0.046665,
+        "B": 0.036889,
+        "A": 1.0,
+        "Hex": "3B3D36"
+      },
+      "LabelOutlineColor": {
+        "R": 0.62396,
+        "G": 0.467784,
+        "B": 0.191202,
+        "A": 1.0,
+        "Hex": "CFB679"
+      }
+    }
+  }
+]

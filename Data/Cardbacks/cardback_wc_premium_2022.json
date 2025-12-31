@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_wc_premium_2022",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_wc_premium_2022",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "09BFF09A4EC22A42F031868674742E9E",
+        "SourceString": "Limited Championship",
+        "LocalizedString": "Limited Championship"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1z",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/wc22_premium_cardback_B1024.wc22_premium_cardback_B1024",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/wc22_premium_cardback_B1024.wc22_premium_cardback_B1024",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/wc22_premium_cardback_C1024.wc22_premium_cardback_C1024",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Card_back_-_WC22_Limited_256.Card_back_-_WC22_Limited_256",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.040915,
+        "G": 0.022174,
+        "B": 0.008568,
+        "A": 0.0,
+        "Hex": "392917"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.651406,
+        "B": 0.332452,
+        "A": 1.0,
+        "Hex": "DED39C"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_poland",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_poland",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7924C6A84F2894F454CA439F26418C61",
+        "SourceString": "Poland Special",
+        "LocalizedString": "Poland Special"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1h",
+      "factions": [
+        "EFactionEnum::Poland"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/poland_a.poland_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/poland_b.poland_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/poland_c.poland_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Battlepass_cardback_icons_for_shop_poland_special_shop_icon.Battlepass_cardback_icons_for_shop_poland_special_shop_icon",
+        "SubPathString": ""
+      }
+    }
+  }
+]

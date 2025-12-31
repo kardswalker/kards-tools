@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_ranked_Gold",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_ranked_Gold",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7B4904424EF480E63739A5800CDDF777",
+        "SourceString": "Ranked Gold",
+        "LocalizedString": "Ranked Gold"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1E",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/Gold/T_rank2_bc.T_rank2_bc",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Gold_inst.cardbackMetalic_Mat_Gold_inst",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Gold.M_Deck_Metal_Gold",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LabelOutlineColor": {
+        "R": 0.40724,
+        "G": 0.250158,
+        "B": 0.064803,
+        "A": 1.0,
+        "Hex": "AB8948"
+      }
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_usa",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_usa",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B1488C63498D81A467C8E08DBBA420AD",
+        "SourceString": "USA Basic",
+        "LocalizedString": "USA Basic"
+      },
+      "ItemSource": "EItemSource::StarterItem",
+      "DeckCodeID": "1j",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicA.UsaBasicA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicB.UsaBasicB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicC.UsaBasicC",
+          "SubPathString": ""
+        }
+      ],
+      "ISBNTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/ISBNCardbacks/T_cardback_usa_ISBN_512.T_cardback_usa_ISBN_512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.057805,
+        "G": 0.072272,
+        "B": 0.026241,
+        "A": 0.0,
+        "Hex": "444C2D"
+      }
+    }
+  }
+]

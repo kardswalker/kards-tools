@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_us_3rd_infantry_division",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_us_3rd_infantry_division",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "283C20474C8AE680DD99F985B865117E",
+        "SourceString": "3rd Infantry Division",
+        "LocalizedString": "3rd Infantry Division"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1v",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-A.Kards-Set-2-USA-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-A.Kards-Set-2-USA-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-B.Kards-Set-2-USA-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-C.Kards-Set-2-USA-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-D.Kards-Set-2-USA-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-USA-E.Kards-Set-2-USA-E",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.019382,
+        "G": 0.029557,
+        "B": 0.066626,
+        "A": 0.0,
+        "Hex": "263049"
+      }
+    }
+  }
+]

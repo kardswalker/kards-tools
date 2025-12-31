@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_steam",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_steam",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "013B90DC4E01B9084055ED9480D785E7",
+        "SourceString": "Steam",
+        "LocalizedString": "Steam"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1k",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SteamBackA.SteamBackA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SteamBackB.SteamBackB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SteamBackC.SteamBackC",
+          "SubPathString": ""
+        }
+      ]
+    }
+  }
+]

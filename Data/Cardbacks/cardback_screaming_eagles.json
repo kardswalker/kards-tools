@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_screaming_eagles",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_screaming_eagles",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5B856819487DEEB8C4C3E896BE3D17DE",
+        "SourceString": "Screaming Eagles",
+        "LocalizedString": "Screaming Eagles"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "15",
+      "rarity": "ERarityEnum::Rare",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/screaming_eagles_a_po2.screaming_eagles_a_po2",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/screaming_eagles_c_po2.screaming_eagles_c_po2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/screaming_eagles_po2.screaming_eagles_po2",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.076185,
+        "G": 0.088656,
+        "B": 0.052861,
+        "A": 0.0,
+        "Hex": "4E5441"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_japan_veteran",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_japan_veteran",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7991A8FF4FC7ED5D76036BABAF4F1BDC",
+        "SourceString": "Japan Veteran",
+        "LocalizedString": "Japan Veteran"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "0P",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapBasicExtraA.JapBasicExtraA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapBasicExtraB.JapBasicExtraB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapBasicExtraC.JapBasicExtraC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.181164,
+        "G": 0.174647,
+        "B": 0.066626,
+        "A": 0.0,
+        "Hex": "767449"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.62396,
+        "B": 0.332452,
+        "A": 1.0,
+        "Hex": "DECF9C"
+      }
+    }
+  }
+]

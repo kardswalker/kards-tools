@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_ranked_Bronze",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_ranked_Bronze",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5F059D904441BD9A1EA4E98DA9254373",
+        "SourceString": "Ranked Bronze",
+        "LocalizedString": "Ranked Bronze"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1E",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/Bronze/T_Rank4_basecolor.T_Rank4_basecolor",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Bronze_inst.cardbackMetalic_Mat_Bronze_inst",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Bronze.M_Deck_Metal_Bronze",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LabelOutlineColor": {
+        "R": 0.234551,
+        "G": 0.109462,
+        "B": 0.066626,
+        "A": 1.0,
+        "Hex": "855D49"
+      }
+    }
+  }
+]

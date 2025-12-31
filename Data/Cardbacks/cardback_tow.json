@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9F20F38A4D405A17D3976297DC69D78D",
+        "SourceString": "Theaters of War",
+        "LocalizedString": "Theaters of War"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1m",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_a.ToW_set_card_back_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_b.ToW_set_card_back_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_c.ToW_set_card_back_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_theater-of-war.cardback_theater-of-war",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.278894,
+        "G": 0.184475,
+        "B": 0.08022,
+        "A": 0.0,
+        "Hex": "907750"
+      },
+      "LabelOutlineColor": {
+        "R": 0.686685,
+        "G": 0.617207,
+        "B": 0.351533,
+        "A": 1.0,
+        "Hex": "D8CEA0"
+      }
+    }
+  }
+]

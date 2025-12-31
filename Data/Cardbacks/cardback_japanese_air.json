@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_japanese_air",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_japanese_air",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F24E374D49294990A3FA1CAEC86B4B08",
+        "SourceString": "Japanese Air",
+        "LocalizedString": "Japanese Air"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "0Q",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_jap_airA.cardback_jap_airA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_jap_airB.cardback_jap_airB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_jap_airC.cardback_jap_airC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.052861,
+        "B": 0.035601,
+        "A": 0.0,
+        "Hex": "434135"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.630757,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DED098"
+      }
+    }
+  }
+]

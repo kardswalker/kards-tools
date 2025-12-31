@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_kards_white",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_kards_white",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9ABE7E914A13BE2980301F9BA29665BA",
+        "SourceString": "KARDS White",
+        "LocalizedString": "KARDS White"
+      },
+      "DeckCodeID": "0U",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/cardbackbase.cardbackbase",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.48515,
+        "G": 0.496933,
+        "B": 0.434154,
+        "A": 1.0,
+        "Hex": "B9BBB0"
+      },
+      "LabelOutlineColor": {
+        "R": 0.056128,
+        "G": 0.056128,
+        "B": 0.056128,
+        "A": 1.0,
+        "Hex": "434343"
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_fighter_sentai",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_fighter_sentai",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5006DEB6436CFE7997A6BA87B2E59415",
+        "SourceString": "Fighter Sentai",
+        "LocalizedString": "Fighter Sentai"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0E",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JAPAN_skirmish.JAPAN_skirmish",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JAPAN_skirmish2.JAPAN_skirmish2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JAPAN_skirmish3.JAPAN_skirmish3",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_JAPAN_icon.cardback_JAPAN_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.212231,
+        "G": 0.215861,
+        "B": 0.127438,
+        "A": 1.0,
+        "Hex": "7F8064"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

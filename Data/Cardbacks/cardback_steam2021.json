@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_steam2021",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_steam2021",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D3524064408950DB9B659BB99974E474",
+        "SourceString": "Steam Anniversary",
+        "LocalizedString": "Steam Anniversary"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1l",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/AlphaAnniversary/T_AlphaCardback_colorUIVersion.T_AlphaCardback_colorUIVersion",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Alpha.cardbackMetalic_Mat_Alpha",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Alpha.M_Deck_Metal_Alpha",
+        "SubPathString": ""
+      },
+      "LabelOutlineColor": {
+        "R": 0.03434,
+        "G": 0.036889,
+        "B": 0.042311,
+        "A": 1.0,
+        "Hex": "34363A"
+      }
+    }
+  }
+]

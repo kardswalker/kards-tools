@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_soviet_guards",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_soviet_guards",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E4A836F84E698EA9126F2699AD38E45A",
+        "SourceString": "Soviet Guards",
+        "LocalizedString": "Soviet Guards"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "17",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-A.Kards-Set-1-USSR-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-A.Kards-Set-1-USSR-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-B.Kards-Set-1-USSR-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-C.Kards-Set-1-USSR-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-D.Kards-Set-1-USSR-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USSR-E.Kards-Set-1-USSR-E",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback-national_soviet.cardback-national_soviet",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.022174,
+        "G": 0.003677,
+        "B": 0.005182,
+        "A": 0.0,
+        "Hex": "290C10"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.610496,
+        "B": 0.291771,
+        "A": 1.0,
+        "Hex": "DECD93"
+      }
+    }
+  }
+]

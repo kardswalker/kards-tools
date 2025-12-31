@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_xxx_corps",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_xxx_corps",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F42463A74FB6FBA36F643D8C00B708EA",
+        "SourceString": "XXX Corps",
+        "LocalizedString": "XXX Corps"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1C",
+      "rarity": "ERarityEnum::Rare",
+      "factions": [
+        "EFactionEnum::Britain"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/xxx_corps_cardback_a.xxx_corps_cardback_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/xxx_corps_cardback_b.xxx_corps_cardback_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/xxx_corps_cardback_c.xxx_corps_cardback_c",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.002428,
+        "G": 0.002428,
+        "B": 0.002428,
+        "A": 0.0,
+        "Hex": "080808"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.708376,
+        "B": 0.417885,
+        "A": 1.0,
+        "Hex": "E7DBAD"
+      }
+    }
+  }
+]

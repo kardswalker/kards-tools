@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_germany",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow_germany",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "617D46294E623526764F2FB673E6F762",
+        "SourceString": "Theaters of War - Germany",
+        "LocalizedString": "Theaters of War - Germany"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1o",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_German_a.ToW_set_card_back_-_German_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_German_b.ToW_set_card_back_-_German_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_German_c.ToW_set_card_back_-_German_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/-cardback-campaign_ToW-german.-cardback-campaign_ToW-german",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.396755,
+        "G": 0.205079,
+        "B": 0.093059,
+        "A": 0.0,
+        "Hex": "A97D56"
+      },
+      "LabelOutlineColor": {
+        "R": 0.056128,
+        "G": 0.056128,
+        "B": 0.056128,
+        "A": 1.0,
+        "Hex": "434343"
+      }
+    }
+  }
+]

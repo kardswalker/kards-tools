@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_holidays2022",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_holidays2022",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B55D32944570199EC4F907B650C59AC5",
+        "SourceString": "Holiday",
+        "LocalizedString": "Holiday"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0K",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/holiday_cardback_22_A512.holiday_cardback_22_A512",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/holiday_cardback_22_B512.holiday_cardback_22_B512",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/holiday_cardback_22_C512.holiday_cardback_22_C512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.003347,
+        "G": 0.033105,
+        "B": 0.008023,
+        "A": 0.0,
+        "Hex": "0B3316"
+      },
+      "bIsAvailableForDuration": true,
+      "StartDate": {
+        "Ticks": 639001440000000000
+      },
+      "EndDate": {
+        "Ticks": 639032904000000000
+      }
+    }
+  }
+]

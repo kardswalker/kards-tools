@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_japanese_army_airforce",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_japanese_army_airforce",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6F75CCEF46B0D4A850F66C830510B2F5",
+        "SourceString": "Japanese Army Airforce",
+        "LocalizedString": "Japanese Army Airforce"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0S",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/redesign_final_B.redesign_final_B",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/redesign_final_C.redesign_final_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/redesign_finalA.redesign_finalA",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback-national_japan.cardback-national_japan",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.536458,
+        "G": 0.016764,
+        "B": 0.017207,
+        "A": 1.0,
+        "Hex": "C22323"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.730461,
+        "B": 0.445201,
+        "A": 1.0,
+        "Hex": "E7DEB2"
+      }
+    }
+  }
+]

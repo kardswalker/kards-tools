@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_german_veteran",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_german_veteran",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6F81A03C4F2733BF5E5267B3231945B7",
+        "SourceString": "German Veteran",
+        "LocalizedString": "German Veteran"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "0I",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GerBasicExtraA.GerBasicExtraA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GerBasicExtraB.GerBasicExtraB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GerBasicExtraC.GerBasicExtraC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.052861,
+        "B": 0.035601,
+        "A": 0.0,
+        "Hex": "434135"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.630757,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DED098"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_legions",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_legions",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "044699724FD9FE66662F7BBED7E20F3D",
+        "SourceString": "Kards Legions",
+        "LocalizedString": "Kards Legions"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0X",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Legions_a_po2.Legions_a_po2",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Legions_b_po2.Legions_b_po2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Legions_c_po2.Legions_c_po2",
+          "SubPathString": ""
+        }
+      ],
+      "LabelOutlineColor": {
+        "R": 0.73791,
+        "G": 0.62396,
+        "B": 0.323143,
+        "A": 1.0,
+        "Hex": "DFCF9A"
+      }
+    }
+  }
+]

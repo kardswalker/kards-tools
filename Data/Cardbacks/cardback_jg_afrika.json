@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_jg_afrika",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_jg_afrika",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "023243EB4660F541185233A0286D8309",
+        "SourceString": "JG 27 Afrika",
+        "LocalizedString": "JG 27 Afrika"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0T",
+      "rarity": "ERarityEnum::Rare",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/jg_27_a.jg_27_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/jg_27_b.jg_27_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/jg_27_c.jg_27_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Battlepass_cardback_icons_for_shop_jg_27_afrika_shop_icon.Battlepass_cardback_icons_for_shop_jg_27_afrika_shop_icon",
+        "SubPathString": ""
+      }
+    }
+  }
+]

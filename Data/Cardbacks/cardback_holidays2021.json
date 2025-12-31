@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_holidays2021",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_holidays2021",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "351EA3E64A25082B4C8F93A69C09B662",
+        "SourceString": "Holiday Card Back",
+        "LocalizedString": "Holiday Card Back"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0J",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Holidays_cardback_-_flake_1.Holidays_cardback_-_flake_1",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Holidays_cardback_-_flake_2.Holidays_cardback_-_flake_2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Holidays_cardback_-_flake_3.Holidays_cardback_-_flake_3",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.097548,
+        "G": 0.137236,
+        "B": 0.161458,
+        "A": 0.0,
+        "Hex": "586770"
+      },
+      "bIsAvailableForDuration": true,
+      "StartDate": {
+        "Ticks": 639001440000000000
+      },
+      "EndDate": {
+        "Ticks": 639032904000000000
+      }
+    }
+  }
+]

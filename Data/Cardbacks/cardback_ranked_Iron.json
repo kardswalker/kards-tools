@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_ranked_Iron",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_ranked_Iron",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3AED767F4D49F8171C3F2EAC394C1812",
+        "SourceString": "Ranked Iron",
+        "LocalizedString": "Ranked Iron"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1E",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/Iron/T_Rank5_basecolor.T_Rank5_basecolor",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Iron_inst.cardbackMetalic_Mat_Iron_inst",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Iron.M_Deck_Metal_Iron",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LabelOutlineColor": {
+        "R": 0.456411,
+        "G": 0.502886,
+        "B": 0.57758,
+        "A": 1.0,
+        "Hex": "B4BCC8"
+      }
+    }
+  }
+]

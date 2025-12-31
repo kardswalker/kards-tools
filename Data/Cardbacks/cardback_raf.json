@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_raf",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_raf",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "77AD62F94887D0819FCAF4B49C187433",
+        "SourceString": "RAF ",
+        "LocalizedString": "RAF "
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "13",
+      "factions": [
+        "EFactionEnum::Britain"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/RAF_a.RAF_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/RAF_b.RAF_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/RAF_c.RAF_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_RAF.cardback_RAF",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.102242,
+        "G": 0.130136,
+        "B": 0.057805,
+        "A": 0.0,
+        "Hex": "5A6544"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_fallschirmager",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_fallschirmager",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DA225AB74E353A4230B83C8C0609B696",
+        "SourceString": "Fallschirmjäger",
+        "LocalizedString": "Fallschirmjäger"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0D",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GERMANY_skirmish.GERMANY_skirmish",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GERMANY_skirmish2.GERMANY_skirmish2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/GERMANY_skirmish3.GERMANY_skirmish3",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_GERMANY_icon.cardback_GERMANY_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.082283,
+        "G": 0.099899,
+        "B": 0.064803,
+        "A": 1.0,
+        "Hex": "515948"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

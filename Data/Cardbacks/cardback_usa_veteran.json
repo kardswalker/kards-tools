@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_usa_veteran",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_usa_veteran",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6062BE504BBA815A10424C81262E0CC2",
+        "SourceString": "USA Veteran",
+        "LocalizedString": "USA Veteran"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1x",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicExtraA.UsaBasicExtraA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicExtraB.UsaBasicExtraB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UsaBasicExtraC.UsaBasicExtraC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.03434,
+        "G": 0.056128,
+        "B": 0.093059,
+        "A": 0.0,
+        "Hex": "344356"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.62396,
+        "B": 0.296138,
+        "A": 1.0,
+        "Hex": "DECF94"
+      }
+    }
+  }
+]

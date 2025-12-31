@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_finland",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_finland",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "26CE86F048D39A2213272CB7541FCE22",
+        "SourceString": "Finland Special",
+        "LocalizedString": "Finland Special"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1c",
+      "factions": [
+        "EFactionEnum::Finland"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/finland_a.finland_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/finland_b.finland_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/finland_c.finland_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Battlepass_cardback_icons_for_shop_finland_special_shop_icon.Battlepass_cardback_icons_for_shop_finland_special_shop_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.246201,
+        "G": 0.184475,
+        "B": 0.097587,
+        "A": 0.0,
+        "Hex": "887758"
+      }
+    }
+  }
+]

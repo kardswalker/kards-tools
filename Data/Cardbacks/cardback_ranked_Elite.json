@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_ranked_Elite",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_ranked_Elite",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3E02D83443546EF652CE57B793BB60FF",
+        "SourceString": "Ranked Elite",
+        "LocalizedString": "Ranked Elite"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1E",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/T_MetalicBack.T_MetalicBack",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Elite_inst.cardbackMetalic_Mat_Elite_inst",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Elite.M_Deck_Metal_Elite",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LabelOutlineColor": {
+        "R": 0.371238,
+        "G": 0.234551,
+        "B": 0.057805,
+        "A": 1.0,
+        "Hex": "A48544"
+      }
+    }
+  }
+]

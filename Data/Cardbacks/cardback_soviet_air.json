@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_soviet_air",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_soviet_air",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "932243064BB18D0E864446882508C8C0",
+        "SourceString": "Soviet Air",
+        "LocalizedString": "Soviet Air"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "16",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_soviet_airA.cardback_soviet_airA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_soviet_airB.cardback_soviet_airB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/cardback_soviet_airC.cardback_soviet_airC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.052861,
+        "B": 0.035601,
+        "A": 0.0,
+        "Hex": "434135"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.630757,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DED098"
+      }
+    }
+  }
+]

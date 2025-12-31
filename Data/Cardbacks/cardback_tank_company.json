@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tank_company",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tank_company",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5B4A26F54880A9F09DFA4F9C5B1D9D75",
+        "SourceString": "Tank Company",
+        "LocalizedString": "Tank Company"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "29",
+      "rarity": "ERarityEnum::Rare",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/japan_tank_company_a.japan_tank_company_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/japan_tank_company_b.japan_tank_company_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/japan_tank_company_c.japan_tank_company_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/tank_company_icon.tank_company_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.052861,
+        "B": 0.035601,
+        "A": 0.0,
+        "Hex": "434135"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.630757,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DED098"
+      }
+    }
+  }
+]

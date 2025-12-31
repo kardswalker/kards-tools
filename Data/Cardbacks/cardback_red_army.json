@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_red_army",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_red_army",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B90CF4CC4F9BED92A540A7BBB5DB3490",
+        "SourceString": "Red Army",
+        "LocalizedString": "Red Army"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "14",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/USSR_skirmish.USSR_skirmish",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/USSR_skirmish2.USSR_skirmish2",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/USSR_skirmish3.USSR_skirmish3",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_USSR_icon.cardback_USSR_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.102242,
+        "G": 0.004391,
+        "B": 0.003677,
+        "A": 1.0,
+        "Hex": "5A0E0C"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_imperial_army_star",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_imperial_army_star",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A9D275F44D2D1F473CF08AAD203F787A",
+        "SourceString": "Imperial Army Star",
+        "LocalizedString": "Imperial Army Star"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0N",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards_JPN_A.Kards_JPN_A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards_JPN_B.Kards_JPN_B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards_JPN_C.Kards_JPN_C",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_imperial-star.cardback_imperial-star",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_britain",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_britain",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2BEC341144C26484D160AD92D6F3C077",
+        "SourceString": "Britain Basic",
+        "LocalizedString": "Britain Basic"
+      },
+      "ItemSource": "EItemSource::StarterItem",
+      "DeckCodeID": "1b",
+      "factions": [
+        "EFactionEnum::Britain"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicBritainA.BasicBritainA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicBritainB.BasicBritainB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicBritainC.BasicBritainC",
+          "SubPathString": ""
+        }
+      ],
+      "ISBNTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/ISBNCardbacks/T_cardback_britain_ISBN_512.T_cardback_britain_ISBN_512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelOutlineColor": {
+        "R": 0.775822,
+        "G": 0.679542,
+        "B": 0.351533,
+        "A": 1.0,
+        "Hex": "E4D7A0"
+      }
+    }
+  }
+]

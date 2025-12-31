@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_japan",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_japan",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E274E26A4CE35FB157B35B9012511116",
+        "SourceString": "Japan Basic",
+        "LocalizedString": "Japan Basic"
+      },
+      "ItemSource": "EItemSource::StarterItem",
+      "DeckCodeID": "1g",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapanBasicA.JapanBasicA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapanBasicB.JapanBasicB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/JapanBasicC.JapanBasicC",
+          "SubPathString": ""
+        }
+      ],
+      "ISBNTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/ISBNCardbacks/T_cardback_japan_ISBN_512.T_cardback_japan_ISBN_512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.177888,
+        "G": 0.099899,
+        "B": 0.020289,
+        "A": 0.0,
+        "Hex": "755927"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.62396,
+        "B": 0.318547,
+        "A": 1.0,
+        "Hex": "DECF99"
+      }
+    }
+  }
+]

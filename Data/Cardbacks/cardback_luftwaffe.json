@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_luftwaffe",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_luftwaffe",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1702F4584EF36E88B98AA2A45C2E8FE5",
+        "SourceString": "Luftwaffe Jagdgeschwader",
+        "LocalizedString": "Luftwaffe Jagdgeschwader"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0Y",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-A.Kards-Set-1-GERMANY-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-A.Kards-Set-1-GERMANY-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-B.Kards-Set-1-GERMANY-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-C.Kards-Set-1-GERMANY-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-D.Kards-Set-1-GERMANY-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-GERMANY-E.Kards-Set-1-GERMANY-E",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback-national_germany.cardback-national_germany",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.06301,
+        "G": 0.088656,
+        "B": 0.07036,
+        "A": 0.0,
+        "Hex": "47544B"
+      },
+      "LabelOutlineColor": {
+        "R": 0.610496,
+        "G": 0.539479,
+        "B": 0.291771,
+        "A": 1.0,
+        "Hex": "CDC293"
+      }
+    }
+  }
+]

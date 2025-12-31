@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_gefreiter",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_gefreiter",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "02C861C84C8242C043A1A6B6535CFA08",
+        "SourceString": "Gefreiter",
+        "LocalizedString": "Gefreiter"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "0F",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Gefreiter_Ax5122.Gefreiter_Ax5122",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Gefreiter_Bx5122.Gefreiter_Bx5122",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Gefreiter_Cx512.Gefreiter_Cx512",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Gefreiter_simplified_icon.Gefreiter_simplified_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.052861,
+        "B": 0.035601,
+        "A": 0.0,
+        "Hex": "434135"
+      },
+      "LabelOutlineColor": {
+        "R": 0.730461,
+        "G": 0.630757,
+        "B": 0.313989,
+        "A": 1.0,
+        "Hex": "DED098"
+      }
+    }
+  }
+]

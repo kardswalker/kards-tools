@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_soviet_veteran",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_soviet_veteran",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C5D92FC74EAEB7752C4983B3EC0759CF",
+        "SourceString": "Soviet Veteran",
+        "LocalizedString": "Soviet Veteran"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1a",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicExtraA.SovietBasicExtraA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicExtraB.SovietBasicExtraB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/SovietBasicExtraC.SovietBasicExtraC",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.155926,
+        "G": 0.011612,
+        "B": 0.01096,
+        "A": 0.0,
+        "Hex": "6E1C1B"
+      },
+      "LabelOutlineColor": {
+        "R": 0.775822,
+        "G": 0.651406,
+        "B": 0.3564,
+        "A": 1.0,
+        "Hex": "E4D3A1"
+      }
+    }
+  }
+]

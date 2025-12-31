@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_winter_war",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_winter_war",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B49BC6DA4DF01CBB4E42D3BBF9A2A4A6",
+        "SourceString": "Kards Winter War",
+        "LocalizedString": "Kards Winter War"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1B",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Winter_War_cardback_A_v2x512.Winter_War_cardback_A_v2x512",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Winter_War_cardback_B_v2x512.Winter_War_cardback_B_v2x512",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Winter_War_cardback_C_v2x512.Winter_War_cardback_C_v2x512",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Winter_War_cardback_icon.Winter_War_cardback_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.029557,
+        "G": 0.068478,
+        "B": 0.076185,
+        "A": 0.0,
+        "Hex": "304A4E"
+      },
+      "LabelOutlineColor": {
+        "R": 0.73791,
+        "G": 0.62396,
+        "B": 0.323143,
+        "A": 1.0,
+        "Hex": "DFCF9A"
+      }
+    }
+  }
+]

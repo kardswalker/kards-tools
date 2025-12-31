@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_japan",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow_japan",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E8E548AF4B559236B802D0B2F06A8C17",
+        "SourceString": "Theaters of War - Japan",
+        "LocalizedString": "Theaters of War - Japan"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1p",
+      "factions": [
+        "EFactionEnum::Japan"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Japan_a.ToW_set_card_back_-_Japan_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Japan_b.ToW_set_card_back_-_Japan_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Japan_c.ToW_set_card_back_-_Japan_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/-cardback-campaign_ToW-japan.-cardback-campaign_ToW-japan",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.323143,
+        "G": 0.254152,
+        "B": 0.0865,
+        "A": 0.0,
+        "Hex": "9A8A53"
+      },
+      "LabelOutlineColor": {
+        "R": 0.791298,
+        "G": 0.64448,
+        "B": 0.371238,
+        "A": 1.0,
+        "Hex": "E6D2A4"
+      }
+    }
+  }
+]

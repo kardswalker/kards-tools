@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_german",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_german",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "73C4D31B452CB498245E00869E9AF903",
+        "SourceString": "Germany Basic",
+        "LocalizedString": "Germany Basic"
+      },
+      "ItemSource": "EItemSource::StarterItem",
+      "DeckCodeID": "1e",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicGermanA.BasicGermanA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicGermanB.BasicGermanB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BasicGermanC.BasicGermanC",
+          "SubPathString": ""
+        }
+      ],
+      "ISBNTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/ISBNCardbacks/T_cardback_german_ISBN_512.T_cardback_german_ISBN_512",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.102242,
+        "G": 0.114435,
+        "B": 0.095307,
+        "A": 0.0,
+        "Hex": "5A5F57"
+      },
+      "LabelOutlineColor": {
+        "R": 0.775822,
+        "G": 0.679542,
+        "B": 0.351533,
+        "A": 1.0,
+        "Hex": "E4D7A0"
+      }
+    }
+  }
+]

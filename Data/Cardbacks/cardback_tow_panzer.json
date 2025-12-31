@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_panzer",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_panzer",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3270759743A91957EF4918A28E61E6CA",
+        "SourceString": "Panzer Division",
+        "LocalizedString": "Panzer Division"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1q",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/PanzerDivisionA.PanzerDivisionA",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/PanzerDivisionB.PanzerDivisionB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/PanzerDivisionC.PanzerDivisionC",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_panzer-division.cardback_panzer-division",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.212231,
+        "G": 0.181164,
+        "B": 0.116971,
+        "A": 0.0,
+        "Hex": "7F7660"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

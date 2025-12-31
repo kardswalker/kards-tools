@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_german_first_infantry",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_german_first_infantry",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0D7CDFD2426D69EE99BEB4809339338F",
+        "SourceString": "1st Infantry",
+        "LocalizedString": "1st Infantry"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "0H",
+      "factions": [
+        "EFactionEnum::Germany"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-A.Kards-Set-2-GERMANY-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-A.Kards-Set-2-GERMANY-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-B.Kards-Set-2-GERMANY-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-C.Kards-Set-2-GERMANY-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-D.Kards-Set-2-GERMANY-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-2-GERMANY-E.Kards-Set-2-GERMANY-E",
+          "SubPathString": ""
+        }
+      ],
+      "LabelBaseColor": {
+        "R": 0.520996,
+        "G": 0.033105,
+        "B": 0.026241,
+        "A": 0.0,
+        "Hex": "BF332D"
+      },
+      "LabelOutlineColor": {
+        "R": 0.760525,
+        "G": 0.679542,
+        "B": 0.386429,
+        "A": 1.0,
+        "Hex": "E2D7A7"
+      }
+    }
+  }
+]

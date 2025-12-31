@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_uprising",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_uprising",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3D1BB4C2400DBC3FD4BCD287B25CC681",
+        "SourceString": "Kards Uprising",
+        "LocalizedString": "Kards Uprising"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1t",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/uprising_a.uprising_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Uprising_b.Uprising_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Uprising_c.Uprising_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_uprising.cardback_uprising",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.533276,
+        "G": 0.496933,
+        "B": 0.351533,
+        "A": 0.0,
+        "Hex": "C1BBA0"
+      },
+      "LabelOutlineColor": {
+        "R": 0.021219,
+        "G": 0.020289,
+        "B": 0.017642,
+        "A": 1.0,
+        "Hex": "282724"
+      }
+    }
+  }
+]

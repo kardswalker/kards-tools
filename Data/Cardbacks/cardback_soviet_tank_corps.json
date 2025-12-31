@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_soviet_tank_corps",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_soviet_tank_corps",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C3BB25844F40E24CB7F4058D251D0320",
+        "SourceString": "Soviet Tank Corps",
+        "LocalizedString": "Soviet Tank Corps"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "19",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BattleOfMoscow_A.BattleOfMoscow_A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BattleOfMoscow_B.BattleOfMoscow_B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/BattleOfMoscow_C.BattleOfMoscow_C",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_tank-corps.cardback_tank-corps",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.040915,
+        "G": 0.049707,
+        "B": 0.0185,
+        "A": 0.0,
+        "Hex": "393F25"
+      },
+      "LabelOutlineColor": {
+        "R": 0.799103,
+        "G": 0.701102,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "E7DAAB"
+      }
+    }
+  }
+]

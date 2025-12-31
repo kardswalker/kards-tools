@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_usa",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow_usa",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "85CED01A4865D13036EB1EB0C0BD5807",
+        "SourceString": "Theaters of War - USA",
+        "LocalizedString": "Theaters of War - USA"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1s",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_USA_a.ToW_set_card_back_-_USA_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_USA_b.ToW_set_card_back_-_USA_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_USA_c.ToW_set_card_back_-_USA_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/-cardback-campaign_ToW-usa.-cardback-campaign_ToW-usa",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.076185,
+        "G": 0.078187,
+        "B": 0.026241,
+        "A": 0.0,
+        "Hex": "4E4F2D"
+      },
+      "LabelOutlineColor": {
+        "R": 0.686685,
+        "G": 0.617207,
+        "B": 0.351533,
+        "A": 1.0,
+        "Hex": "D8CEA0"
+      }
+    }
+  }
+]

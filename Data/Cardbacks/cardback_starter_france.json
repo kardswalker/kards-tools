@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_starter_france",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_starter_france",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3098ADCE4D0C35B674DBC6A00B59C715",
+        "SourceString": "France Special",
+        "LocalizedString": "France Special"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1d",
+      "factions": [
+        "EFactionEnum::France"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/france_a.france_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/france_b.france_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/france_c.france_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/Battlepass_cardback_icons_for_shop_france_special_shop_icon.Battlepass_cardback_icons_for_shop_france_special_shop_icon",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.246201,
+        "G": 0.184475,
+        "B": 0.097587,
+        "A": 0.0,
+        "Hex": "887758"
+      }
+    }
+  }
+]

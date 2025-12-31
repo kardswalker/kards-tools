@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_britain",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow_britain",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "93E102DE4338CD2085627AA6A596AAF1",
+        "SourceString": "Theaters of War - Britain",
+        "LocalizedString": "Theaters of War - Britain"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1n",
+      "factions": [
+        "EFactionEnum::Britain"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_British_a.ToW_set_card_back_-_British_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_British_b.ToW_set_card_back_-_British_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_British_c.ToW_set_card_back_-_British_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback-campaign_ToW-britain.cardback-campaign_ToW-britain",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.55834,
+        "G": 0.401978,
+        "B": 0.234551,
+        "A": 0.0,
+        "Hex": "C5AA85"
+      },
+      "LabelOutlineColor": {
+        "R": 0.056128,
+        "G": 0.056128,
+        "B": 0.056128,
+        "A": 1.0,
+        "Hex": "434343"
+      }
+    }
+  }
+]

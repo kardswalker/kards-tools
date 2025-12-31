@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_us_12th_airforce",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_us_12th_airforce",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A754D59A46A2B5E7603D4DBF53558436",
+        "SourceString": "US 12th Airforce",
+        "LocalizedString": "US 12th Airforce"
+      },
+      "ItemSource": "EItemSource::PurchasableItem",
+      "DeckCodeID": "1u",
+      "factions": [
+        "EFactionEnum::USA"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-A.Kards-Set-1-USA-A",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-A.Kards-Set-1-USA-A",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-B.Kards-Set-1-USA-B",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-C.Kards-Set-1-USA-C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-D.Kards-Set-1-USA-D",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Kards-Set-1-USA-E.Kards-Set-1-USA-E",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback-national_usa.cardback-national_usa",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.078187,
+        "G": 0.076185,
+        "B": 0.141263,
+        "A": 0.0,
+        "Hex": "4F4E69"
+      }
+    }
+  }
+]

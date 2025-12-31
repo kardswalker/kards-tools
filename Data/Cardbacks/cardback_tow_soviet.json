@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_tow_soviet",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_tow_soviet",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6D03D30B41E3C2A3D3FD65A419E85ED4",
+        "SourceString": "Theaters of War - Soviet",
+        "LocalizedString": "Theaters of War - Soviet"
+      },
+      "ItemSource": "EItemSource::RewardedItem",
+      "DeckCodeID": "1r",
+      "factions": [
+        "EFactionEnum::Soviet"
+      ],
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Soviet_a.ToW_set_card_back_-_Soviet_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Soviet_b.ToW_set_card_back_-_Soviet_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/ToW_set_card_back_-_Soviet_c.ToW_set_card_back_-_Soviet_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/-cardback-campaign_ToW-soviet.-cardback-campaign_ToW-soviet",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.194618,
+        "G": 0.250158,
+        "B": 0.226966,
+        "A": 0.0,
+        "Hex": "7A8983"
+      },
+      "LabelOutlineColor": {
+        "R": 0.102242,
+        "G": 0.056128,
+        "B": 0.03434,
+        "A": 1.0,
+        "Hex": "5A4334"
+      }
+    }
+  }
+]

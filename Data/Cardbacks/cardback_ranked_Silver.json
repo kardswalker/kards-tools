@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_ranked_Silver",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_ranked_Silver",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B37A27B74B6FF4EF6C8913AA5317638D",
+        "SourceString": "Ranked Silver",
+        "LocalizedString": "Ranked Silver"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "1E",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/Silver/T_rank3_bc.T_rank3_bc",
+        "SubPathString": ""
+      },
+      "UniqueMaterial": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/UniqueMaterials/cardbackMetalic_Mat_Silver_inst.cardbackMetalic_Mat_Silver_inst",
+        "SubPathString": ""
+      },
+      "UniqueDeckMaterial": {
+        "AssetPathName": "/Game/Assets/DeckGenerator/Materials/M_Deck_Metal_Silver.M_Deck_Metal_Silver",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LabelOutlineColor": {
+        "R": 0.401978,
+        "G": 0.412543,
+        "B": 0.401978,
+        "A": 1.0,
+        "Hex": "AAACAA"
+      }
+    }
+  }
+]

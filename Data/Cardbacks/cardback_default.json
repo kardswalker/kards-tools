@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CardBackAsset",
+    "Name": "cardback_default",
+    "Class": "UScriptClass'CardBackAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": "cardback_default",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "55D9588149353D6C2EDC038C03A324B5",
+        "SourceString": "KARDS Black",
+        "LocalizedString": "KARDS Black"
+      },
+      "ItemSource": "EItemSource::SpecialItem",
+      "DeckCodeID": "0A",
+      "MainTexture": {
+        "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Base_set_card_back_a.Base_set_card_back_a",
+        "SubPathString": ""
+      },
+      "VariantTextures": [
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Base_set_card_back_b.Base_set_card_back_b",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Assets/Textures/cards/CardBacks/Base_set_card_back_c.Base_set_card_back_c",
+          "SubPathString": ""
+        }
+      ],
+      "icon": {
+        "AssetPathName": "/Game/Assets/Textures/StoreIcons/cardback/cardback_base.cardback_base",
+        "SubPathString": ""
+      },
+      "LabelBaseColor": {
+        "R": 0.056128,
+        "G": 0.056128,
+        "B": 0.056128,
+        "A": 0.0,
+        "Hex": "434343"
+      },
+      "LabelOutlineColor": {
+        "R": 0.610496,
+        "G": 0.539479,
+        "B": 0.291771,
+        "A": 1.0,
+        "Hex": "CDC293"
+      }
+    }
+  }
+]
