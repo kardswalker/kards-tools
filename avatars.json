@@ -1,0 +1,1219 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "avatars",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'avatarData'",
+        "ObjectPath": "kards/Content/Structs/avatarData.0"
+      }
+    },
+    "Rows": {
+      "avatar_2e_brigade": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_2e-brigade.T_Portrait_Elite_2e-brigade",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "93EBE94A4C914BB3AD1A3DA6EA31F02B",
+          "SourceString": "2e Brigade",
+          "LocalizedString": "2e Brigade"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_white_death": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_White-Death.T_Portrait_Elite_White-Death",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "E3AD22904C4B02AA1EFB29A4DF054245",
+          "SourceString": "White Death",
+          "LocalizedString": "White Death"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_zamosc_uprising": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_Uprising.T_Portrait_Elite_Uprising",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "31C7B9E34963ED7EFD15D583DA0220FC",
+          "SourceString": "Uprising",
+          "LocalizedString": "Uprising"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_119_grenadier": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_119-Grenadier.T_Portrait_Elite_119-Grenadier",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "C1CE8C5348C1872A56BB3198256ED626",
+          "SourceString": "119. Grenadier",
+          "LocalizedString": "119. Grenadier"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_folgore": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_Folgore.T_Portrait_Elite_Folgore",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D2F6D6964860BED0F20BA1BDC60FFEAA",
+          "SourceString": "Folgore",
+          "LocalizedString": "Folgore"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_in_the_navy": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_In-The-Navy.T_Portrait_Elite_In-The-Navy",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "B3CE487A45BAF9389F0FE18A6F46D3C8",
+          "SourceString": "In The Navy",
+          "LocalizedString": "In The Navy"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_monty": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_Monty.T_Portrait_Elite_Monty",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "764A79084ABDACFE466BD4B63AF7A30D",
+          "SourceString": "Monty",
+          "LocalizedString": "Monty"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_worker": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Elite_Worker.T_Portrait_Elite_Worker",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "B390E48444780FDF500945955E52AEA4",
+          "SourceString": "Worker",
+          "LocalizedString": "Worker"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_scrap_metal": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Suomi.T_Portrait_Special_Suomi",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "9528042E4902F09C0CD5C694D9918D33",
+          "SourceString": "Suomi",
+          "LocalizedString": "Suomi"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_la_decima": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Regia-Marina.T_Portrait_Special_Regia-Marina",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "31788DF946D7D152F50704B8B13EAE2A",
+          "SourceString": "Regia Marina",
+          "LocalizedString": "Regia Marina"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_48_regiment": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_48e-Regiment.T_Portrait_Special_48e-Regiment",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "61CC4031478723B319EC0FAA7C2FF991",
+          "SourceString": "48e Regiment",
+          "LocalizedString": "48e Regiment"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_97th_rifles": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_97th-Rifles.T_Portrait_Special_97th-Rifles",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "CD58E80E4E3887AEF9BE1A9F30BC9655",
+          "SourceString": "97th Rifles",
+          "LocalizedString": "97th Rifles"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_black_beret": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Black-Beret.T_Portrait_Special_Black-Beret",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "3D84A7CC4EC34D38170997AD7B67C17C",
+          "SourceString": "Black Beret",
+          "LocalizedString": "Black Beret"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_blitzfunker": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Blitzfunker.T_Portrait_Special_Blitzfunker",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "50425CDC46B1A7741AF37AA7B061C799",
+          "SourceString": "Blitzfunker",
+          "LocalizedString": "Blitzfunker"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_cadet_nurse": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Cadet-Nurse-corps.T_Portrait_Special_Cadet-Nurse-corps",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "1C80E53141D31F947C74B388D64E4FE1",
+          "SourceString": "Cadet Nurse Corps",
+          "LocalizedString": "Cadet Nurse Corps"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_commander": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Commander.T_Portrait_Special_Commander",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "51B1B14241DE62168E0E1FA336E08BB3",
+          "SourceString": "Commander",
+          "LocalizedString": "Commander"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_prosperity": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_For-Prosperity.T_Portrait_Special_For-Prosperity",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D44D24EF4254578A64E8ACBE4BB54E43",
+          "SourceString": "For Prosperity",
+          "LocalizedString": "For Prosperity"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_to_arms": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_To-Arms.T_Portrait_Special_To-Arms",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "1B944B5F477458177CE5D6ABD3D77849",
+          "SourceString": "To Arms",
+          "LocalizedString": "To Arms"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_ultra": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Ultra.T_Portrait_Special_Ultra",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "42C2B1174FB8929DC0D425B26BF9BEAC",
+          "SourceString": "Ultra",
+          "LocalizedString": "Ultra"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_57th_rifles": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_57th-Rifles.T_Portrait_Standard_57th-Rifles",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "B2492B1B4691F9D713FD09A741AE23E2",
+          "SourceString": "57th Rifles",
+          "LocalizedString": "57th Rifles"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_baker_street_irregulars": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Baker-Street.T_Portrait_Standard_Baker-Street",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "8FDAA7D44C7E2F1F6D31BD99C9ECB8EF",
+          "SourceString": "Baker Street",
+          "LocalizedString": "Baker Street"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_91st_astrakhan": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_91st-Astrakhan.T_Portrait_Standard_91st-Astrakhan",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "36FA7E5145B3DA00C84AD69D599EFA27",
+          "SourceString": "91st Astrakhan",
+          "LocalizedString": "91st Astrakhan"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_ats": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_ATS.T_Portrait_Standard_ATS",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "55865C384CFC89087724C1BF85A69D7E",
+          "SourceString": "ATS",
+          "LocalizedString": "ATS"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_blitzkrieg": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Blitzkrieg.T_Portrait_Standard_Blitzkrieg",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "283FE97D432531F32808969F452AA1CE",
+          "SourceString": "Blitzkrieg",
+          "LocalizedString": "Blitzkrieg"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_blitzmadel": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Blitzmädel.T_Portrait_Standard_Blitzmädel",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "4597FD7D40F298B3583439ACE81597CC",
+          "SourceString": "Blitzmädel",
+          "LocalizedString": "Blitzmädel"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_deadly_duty": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Deadly-Duty.T_Portrait_Standard_Deadly-Duty",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "3C4E85334C02C2B449C03C85127CFD82",
+          "SourceString": "Deadly Duty",
+          "LocalizedString": "Deadly Duty"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_feldgrau": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Feldgrau.T_Portrait_Standard_Feldgrau",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "50E8C35F4FBAE8F676095F8FDF1C5FD6",
+          "SourceString": "Feldgrau",
+          "LocalizedString": "Feldgrau"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_flyboys": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Flyboys.T_Portrait_Standard_Flyboys",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "02DFBC0046E821C39C444CADE7616411",
+          "SourceString": "Flyboys",
+          "LocalizedString": "Flyboys"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_glamour_boys": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Glamour-Boys.T_Portrait_Standard_Glamour-Boys",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D4E729CB442980C2B09E4F91AD92C636",
+          "SourceString": "Glamour Boys",
+          "LocalizedString": "Glamour Boys"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_imperial_strength": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Imperial-Strength.T_Portrait_Standard_Imperial-Strength",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "55CD4773409D197E39D1DF960C57D2DE",
+          "SourceString": "Imperial Strength",
+          "LocalizedString": "Imperial Strength"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_kurmark": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Kurmark.T_Portrait_Standard_Kurmark",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "6F3A3457474EECD269359AA2597D6432",
+          "SourceString": "Kurmark",
+          "LocalizedString": "Kurmark"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_nfs": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_NFS.T_Portrait_Standard_NFS",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "351C0A264471FEBDCB1FF3B86A680A6E",
+          "SourceString": "NFS",
+          "LocalizedString": "NFS"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_no_surrender": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_No-Surrender.T_Portrait_Standard_No-Surrender",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "B3D64AE54212EC85D76003BB7A09CDB0",
+          "SourceString": "No Surrender",
+          "LocalizedString": "No Surrender"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_rosie": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Rosie-the-Riveter.T_Portrait_Standard_Rosie-the-Riveter",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "913EB86643998DB8C62A058811F6CF0F",
+          "SourceString": "Rosie the Riveter",
+          "LocalizedString": "Rosie the Riveter"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_sturm": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Sturm-Brigade.T_Portrait_Standard_Sturm-Brigade",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "357926BD49A24E0E44563F86B12D6B55",
+          "SourceString": "Sturm Brigade",
+          "LocalizedString": "Sturm Brigade"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_unity": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Unity-is-Strength.T_Portrait_Standard_Unity-is-Strength",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "19D33EEB48486CADA552078FA9496A0A",
+          "SourceString": "Unity is Strength",
+          "LocalizedString": "Unity is Strength"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_war_machine": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_War-Machine.T_Portrait_Standard_War-Machine",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "548CA9FD429EB7DBF9D33CAA535F3225",
+          "SourceString": "War Machine",
+          "LocalizedString": "War Machine"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_warrior_sky": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Warrior-of-the-Sky.T_Portrait_Standard_Warrior-of-the-Sky",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "FBDB9F9F409AC43A23B8CFAE1FBE31B2",
+          "SourceString": "Warrior of the Sky",
+          "LocalizedString": "Warrior of the Sky"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_wingman": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Wingman.T_Portrait_Standard_Wingman",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "941262BE4DAECABBE08666940F044D91",
+          "SourceString": "Wingman",
+          "LocalizedString": "Wingman"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::RewardedItem"
+      },
+      "avatar_shadow": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Standard_Shadow.T_Portrait_Standard_Shadow",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::NotAvailable",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "CultureInvariantString": null
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::StarterItem"
+      },
+      "avatar_sailor": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/T_Portrait_Special_Sailor.T_Portrait_Special_Sailor",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "BC55CBA8491CA8AADAC7B4945E774073",
+          "SourceString": "Sailor",
+          "LocalizedString": "Sailor"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_samurai": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_elite_samurai.T_portrait_elite_samurai",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "562B81BA4D9987EE29C4838BFF8211D7",
+          "SourceString": "Samurai",
+          "LocalizedString": "Samurai"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_seabee": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_elite_seabees.T_portrait_elite_seabees",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "E34E06124E83775B624FF0BECE9CFE1E",
+          "SourceString": "Seabee",
+          "LocalizedString": "Seabee"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_joe": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_special_joe_.T_portrait_special_joe_",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "E6A1EBF44F28359E066B7DB51E022B9F",
+          "SourceString": "Joe",
+          "LocalizedString": "Joe"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_spars": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_special_spars.T_portrait_special_spars",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "6A03FEAA48DE1C2ADAAFF98914A05BC7",
+          "SourceString": "SPARS",
+          "LocalizedString": "SPARS"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_airman": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_airman.T_portrait_standard_airman",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "67B3E0BD446C659E70436581A1A8DD25",
+          "SourceString": "Airman",
+          "LocalizedString": "Airman"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_grey_wolf": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_grey-wolf.T_portrait_standard_grey-wolf",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "B872D34B428D8272CBE8D4BF1226E7ED",
+          "SourceString": "Grey Wolf",
+          "LocalizedString": "Grey Wolf"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_happy_comrade": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_happy-comrade.T_portrait_standard_happy-comrade",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "9E36185241A8591033908D9D2655B459",
+          "SourceString": "Happy Comrade",
+          "LocalizedString": "Happy Comrade"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_hunter": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_hunter.T_portrait_standard_hunter",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "41782213493B068F62A2EC96BBEE922B",
+          "SourceString": "Hunter",
+          "LocalizedString": "Hunter"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_iron_comrade": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_iron-comrade.T_portrait_standard_iron-comrade",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "DD80E60E4872ABC5E4320986AD508998",
+          "SourceString": "Iron Comrade",
+          "LocalizedString": "Iron Comrade"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_shellmaker": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_portrait_standard_shellmaker.T_portrait_standard_shellmaker",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "FD7FE43240CA6442E9066F90CA1F89E4",
+          "SourceString": "Shellmaker",
+          "LocalizedString": "Shellmaker"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_paratrooper": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_Portrait_Special_Paratrooper.T_Portrait_Special_Paratrooper",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "578FB120456D2518B62F9389D36358CD",
+          "SourceString": "Paratrooper",
+          "LocalizedString": "Paratrooper"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_frontier_force": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Naval-Warfare/T_Portrait_Special_frontier-force.T_Portrait_Special_frontier-force",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "1350E6E949C3175B2FEB51B45BA7FC4D",
+          "SourceString": "Frontier Force",
+          "LocalizedString": "Frontier Force"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_tex": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Elite_Tex.T_Portrait_Elite_Tex",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "979BC37F44F670B0877BB7BC79634DC7",
+          "SourceString": "Tex",
+          "LocalizedString": "Tex"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_pound": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Special_Pound.T_Portrait_Special_Pound",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "ED9967B940A2C2C41DF77EB1DF1C325D",
+          "SourceString": "Pound",
+          "LocalizedString": "Pound"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_salamander": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Special_Salamander.T_Portrait_Special_Salamander",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "5CD6442C460E6FBD2FCBC197CF817903",
+          "SourceString": "Salamander",
+          "LocalizedString": "Salamander"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_oblivion": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Standard_Flight-to-oblivion.T_Portrait_Standard_Flight-to-oblivion",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "4BA7125243E96B5BF2E7FB837A667893",
+          "SourceString": "Oblivion",
+          "LocalizedString": "Oblivion"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_bomber": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Standard_Glide-bombing.T_Portrait_Standard_Glide-bombing",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D738993545F0162096ED63B395BCCA8F",
+          "SourceString": "Bomber",
+          "LocalizedString": "Bomber"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_tech": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Air-Supremacy/T_Portrait_Standard_Tech.T_Portrait_Standard_Tech",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "9351EB5348B01FE0189B9A92F4FDF96A",
+          "SourceString": "Tech",
+          "LocalizedString": "Tech"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_sam": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Elite_Uncle-Sam.T_Portrait_Elite_Uncle-Sam",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Unique",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "19E192D74945F0383A328199000F9A5F",
+          "SourceString": "Sam",
+          "LocalizedString": "Sam"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_845th_rifles": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Special_845th-Rifles.T_Portrait_Special_845th-Rifles",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "3D2CAEFE4F1C7D12AA0778AC442DB4D0",
+          "SourceString": "845th Rifles",
+          "LocalizedString": "845th Rifles"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_nurse": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Special_Penicillin.T_Portrait_Special_Penicillin",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Rare",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "C462D01C45C45B3069CA2BABFE15522B",
+          "SourceString": "Nurse",
+          "LocalizedString": "Nurse"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_bletchley_park": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Standard_Bletchley.T_Portrait_Standard_Bletchley",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D488350148CEA7447DCE279828470084",
+          "SourceString": "Bletchley Park",
+          "LocalizedString": "Bletchley Park"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_field_hospital": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Standard_Field-Hospital.T_Portrait_Standard_Field-Hospital",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "09E52162478D76EF2DC2B9A3E41C3E29",
+          "SourceString": "Field Hospital",
+          "LocalizedString": "Field Hospital"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_land_girl": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Standard_land-girls.T_Portrait_Standard_land-girls",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "12EB533B49B4353FEF47F8A0CC03A8AF",
+          "SourceString": "Land Girl",
+          "LocalizedString": "Land Girl"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_red_bull": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Standard_red-bull.T_Portrait_Standard_red-bull",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "D0A3A25B422AF22B420024884328BD18",
+          "SourceString": "Red Bull",
+          "LocalizedString": "Red Bull"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      },
+      "avatar_volunteer": {
+        "texture_3_94327BD349867F6B71B5B3850CC2D6AA": {
+          "AssetPathName": "/Game/Assets/Textures/Portraits/Homefront/T_Portrait_Standard_volunteer.T_Portrait_Standard_volunteer",
+          "SubPathString": ""
+        },
+        "overlayTexture_11_FE24D1D2413753BA306F3F84D94C26D7": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "rarity_5_8308F50F4F6FB2A0A42CD8B3FE7E0DE0": "ERarityEnum::Common",
+        "displayName_8_F254D389440024659714AE8AC8C1581D": {
+          "Namespace": "",
+          "Key": "6FC4A5AD44A99872E1DE5F8D3E11A56E",
+          "SourceString": "Volunteer",
+          "LocalizedString": "Volunteer"
+        },
+        "source_14_51B52A2A42F4017EC481FB9DE1D1F478": "EItemSource::PurchasableItem"
+      }
+    }
+  }
+]

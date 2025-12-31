@@ -1,0 +1,1843 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Achievements",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AchievementStruct'",
+        "ObjectPath": "/Script/kards"
+      }
+    },
+    "Rows": {
+      "recruit": {
+        "Name": "recruit",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "recruit_title",
+          "SourceString": "Rookie",
+          "LocalizedString": "Rookie"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "recruit_text",
+          "SourceString": "Complete Recruit Missions",
+          "LocalizedString": "Complete Recruit Missions"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnMissionFinished",
+        "counter": 12,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal-Rookie'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal-Rookie.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Rookie'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Rookie.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "starters": {
+        "Name": "starters",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "starters_title",
+          "SourceString": "Enlisted",
+          "LocalizedString": "Enlisted"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "starters_text",
+          "SourceString": "Complete Starter Campaigns",
+          "LocalizedString": "Complete Starter Campaigns"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Barracks'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Barracks.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Barracks'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Barracks.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_12": {
+        "Name": "lvl_12",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "lvl_12_title",
+          "SourceString": "Mobilization",
+          "LocalizedString": "Mobilization"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_12_text",
+          "SourceString": "Collect all level 12 Battle Ready Decks",
+          "LocalizedString": "Collect all level 12 Battle Ready Decks"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Mobilization'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Mobilization.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Mobilization'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Mobilization.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "3_pve": {
+        "Name": "3_pve",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "3_pve_title",
+          "SourceString": "Preparation",
+          "LocalizedString": "Preparation"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "3_pve_text",
+          "SourceString": "Win 3 Training games",
+          "LocalizedString": "Win 3 Training games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 3,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Preparation'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Preparation.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Preparation'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Preparation.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "5_pvp": {
+        "Name": "5_pvp",
+        "title": {
+          "Namespace": "",
+          "Key": "A6E319234AE2C63280FF95A4B63ED6A5",
+          "SourceString": "Boots on the Ground",
+          "LocalizedString": "Boots on the Ground"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "5_pvp_text",
+          "SourceString": "Win 5 PvP games",
+          "LocalizedString": "Win 5 PvP games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-5-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-5-PVP.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-5-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-5-PVP.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "pvp"
+      },
+      "50_pvp": {
+        "Name": "50_pvp",
+        "title": {
+          "Namespace": "",
+          "Key": "4D4AEFF946DC08C6C7C7159FFD5C479A",
+          "SourceString": "Frontline Veteran",
+          "LocalizedString": "Frontline Veteran"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "50_pvp_text",
+          "SourceString": "Win 50 PvP games",
+          "LocalizedString": "Win 50 PvP games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 50,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-50-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-50-PVP.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-50-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-50-PVP.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "pvp"
+      },
+      "500_pvp": {
+        "Name": "500_pvp",
+        "title": {
+          "Namespace": "",
+          "Key": "C3098E6347DF02D83B4D40AB3E0DD64C",
+          "SourceString": "Legend",
+          "LocalizedString": "Legend"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_pvp_text",
+          "SourceString": "Win 500 PvP games",
+          "LocalizedString": "Win 500 PvP games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-500-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-500-PVP.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-500-PVP'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-500-PVP.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "pvp"
+      },
+      "5_draft": {
+        "Name": "5_draft",
+        "title": {
+          "Namespace": "",
+          "Key": "D85C768242687217D5B67994916F8D96",
+          "SourceString": "Draftee",
+          "LocalizedString": "Draftee"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "5_draft_text",
+          "SourceString": "Win 5 Draft games",
+          "LocalizedString": "Win 5 Draft games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-5-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-5-Draft.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-5-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-5-Draft.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "draft"
+      },
+      "50_draft": {
+        "Name": "50_draft",
+        "title": {
+          "Namespace": "",
+          "Key": "55F6415D4DC59BD7749805B1A5C7F55A",
+          "SourceString": "Tactician",
+          "LocalizedString": "Tactician"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "50_draft_text",
+          "SourceString": "Win 50 Draft games",
+          "LocalizedString": "Win 50 Draft games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 50,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-50-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-50-Draft.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-50-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-50-Draft.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "draft"
+      },
+      "500_draft": {
+        "Name": "500_draft",
+        "title": {
+          "Namespace": "",
+          "Key": "CF397C234D9FC6F3D6301194FE7F479A",
+          "SourceString": "Master Strategist",
+          "LocalizedString": "Master Strategist"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_draft_text",
+          "SourceString": "Win 500 Draft games",
+          "LocalizedString": "Win 500 Draft games"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-500-Dreft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-500-Dreft.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-500-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-500-Draft.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "draft"
+      },
+      "win_draft": {
+        "Name": "win_draft",
+        "title": {
+          "Namespace": "",
+          "Key": "D17AFE874922FB6347C762BAE970FE31",
+          "SourceString": "Field Commander",
+          "LocalizedString": "Field Commander"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "win_draft_text",
+          "SourceString": "Complete a full Draft",
+          "LocalizedString": "Complete a full Draft"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnDraftEnded",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Complete-full-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Complete-full-Draft.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Complete-full-Draft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Complete-full-Draft.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "win_draft_no_loss": {
+        "Name": "win_draft_no_loss",
+        "title": {
+          "Namespace": "",
+          "Key": "045E706C4B6D3417E3D66F9CD7B810E8",
+          "SourceString": "Flawless Victory",
+          "LocalizedString": "Flawless Victory"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "win_draft_no_loss_text",
+          "SourceString": "Complete a Draft without a loss",
+          "LocalizedString": "Complete a Draft without a loss"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnDraftEnded",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Complete-Draft-with-no-loss'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Complete-Draft-with-no-loss.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Complete-Draft-with-no-loss'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Complete-Draft-with-no-loss.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "win_tourney": {
+        "Name": "win_tourney",
+        "title": {
+          "Namespace": "",
+          "Key": "FEE6C8E240F25C3802B70EB69292DCE9",
+          "SourceString": "First Blood ",
+          "LocalizedString": "First Blood "
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "win_tourney_text",
+          "SourceString": "Win a tournament trophy",
+          "LocalizedString": "Win a tournament trophy"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-a-Tournament'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-a-Tournament.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-a-Tournament'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-a-Tournament.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "tourney"
+      },
+      "10_tourney": {
+        "Name": "10_tourney",
+        "title": {
+          "Namespace": "",
+          "Key": "D10E3D42458BF1A083862D8F209CEC16",
+          "SourceString": "Champion of Champions",
+          "LocalizedString": "Champion of Champions"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "10_tourney_text",
+          "SourceString": "Win 10 tournament trophies",
+          "LocalizedString": "Win 10 tournament trophies"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 10,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-10-Tournaments'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-10-Tournaments.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-10-Tournaments'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-10-Tournaments.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "tourney"
+      },
+      "100_tourney": {
+        "Name": "100_tourney",
+        "title": {
+          "Namespace": "",
+          "Key": "BB766D13407691622C223C82E2381F2B",
+          "SourceString": "KARDS Grandmaster",
+          "LocalizedString": "KARDS Grandmaster"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "100_tourney_text",
+          "SourceString": "Win 100 tournament trophies",
+          "LocalizedString": "Win 100 tournament trophies"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 100,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Win-100-Tournaments'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Win-100-Tournaments.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Win-100-Tournaments'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Win-100-Tournaments.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "tourney"
+      },
+      "lvl_50": {
+        "Name": "lvl_50",
+        "title": {
+          "Namespace": "",
+          "Key": "0311FFC5447763E99C8925986A0A2B46",
+          "SourceString": "Frontline Specialist",
+          "LocalizedString": "Frontline Specialist"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_50_text",
+          "SourceString": "Reach level 50 with one nation",
+          "LocalizedString": "Reach level 50 with one nation"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Level-50-one-nation'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Level-50-one-nation.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Complete-Draft-with-no-loss-1'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Complete-Draft-with-no-loss-1.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_50_all": {
+        "Name": "lvl_50_all",
+        "title": {
+          "Namespace": "",
+          "Key": "1E28A02047E98A2A2C43F3908A00B340",
+          "SourceString": "Master of Nations",
+          "LocalizedString": "Master of Nations"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_50_all_text",
+          "SourceString": "Reach level 50 with all nations",
+          "LocalizedString": "Reach level 50 with all nations"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Level-50-all-nations'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Level-50-all-nations.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Complete-Draft-with-no-loss-2'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Complete-Draft-with-no-loss-2.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_all": {
+        "Name": "lvl_150_all",
+        "title": {
+          "Namespace": "",
+          "Key": "12F7DD37494B87ADA33B76A981996253",
+          "SourceString": "World Warlord",
+          "LocalizedString": "World Warlord"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_all_text",
+          "SourceString": "Reach level 150 with all nations",
+          "LocalizedString": "Reach level 150 with all nations"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 5,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Level-150-all-nations'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Level-150-all-nations.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Level-150-all-nations'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Level-150-all-nations.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_ger": {
+        "Name": "lvl_150_ger",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_ger_title",
+          "SourceString": "Iron Cross",
+          "LocalizedString": "Iron Cross"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_ger_text",
+          "SourceString": "Reach level 150 - Germany",
+          "LocalizedString": "Reach level 150 - Germany"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Iron-Cross'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Iron-Cross.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Iron-Cross'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Iron-Cross.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_us": {
+        "Name": "lvl_150_us",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_us_title",
+          "SourceString": "Purple Heart",
+          "LocalizedString": "Purple Heart"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_us_text",
+          "SourceString": "Reach level 150 - USA",
+          "LocalizedString": "Reach level 150 - USA"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Purple-Heart'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Purple-Heart.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Purple-Heart'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Purple-Heart.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_sov": {
+        "Name": "lvl_150_sov",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_sov_title",
+          "SourceString": "Hero of the Soviet Union",
+          "LocalizedString": "Hero of the Soviet Union"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_sov_text",
+          "SourceString": "Reach level 150 – Soviet",
+          "LocalizedString": "Reach level 150 – Soviet"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Hero-of-the-soviet-union'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Hero-of-the-soviet-union.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Hero-of-the-soviet-union'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Hero-of-the-soviet-union.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_brit": {
+        "Name": "lvl_150_brit",
+        "title": {
+          "Namespace": "",
+          "Key": "BC27347146180FCDDDDC6F8D815A3D12",
+          "SourceString": "Victoria Cross",
+          "LocalizedString": "Victoria Cross"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_brit_text",
+          "SourceString": "Reach level 150 - Britain",
+          "LocalizedString": "Reach level 150 - Britain"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Victoria-Cross'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Victoria-Cross.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Victorian-Cross'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Victorian-Cross.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "lvl_150_jap": {
+        "Name": "lvl_150_jap",
+        "title": {
+          "Namespace": "",
+          "Key": "4BD55A9E44AA1D761C4C798BAADB488A",
+          "SourceString": "Medal of Honor",
+          "LocalizedString": "Medal of Honor"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "lvl_150_jap_text",
+          "SourceString": "Reach level 150 - Japan",
+          "LocalizedString": "Reach level 150 - Japan"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Medal-of-honor'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Medal-of-honor.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Medal-of-honor'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Medal-of-honor.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "rank_20": {
+        "Name": "rank_20",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "rank_20_title",
+          "SourceString": "Iron Rank",
+          "LocalizedString": "Iron Rank"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "rank_20_text",
+          "SourceString": "Reach Rank 20",
+          "LocalizedString": "Reach Rank 20"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Iron-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Iron-Rank.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Iron-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Iron-Rank.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "rank"
+      },
+      "rank_15": {
+        "Name": "rank_15",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "rank_15_title",
+          "SourceString": "Bronze Rank",
+          "LocalizedString": "Bronze Rank"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "rank_15_text",
+          "SourceString": "Reach Rank 15",
+          "LocalizedString": "Reach Rank 15"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Bronze-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Bronze-Rank.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Bronze-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Bronze-Rank.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "rank"
+      },
+      "rank_10": {
+        "Name": "rank_10",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "rank_10_title",
+          "SourceString": "Silver Rank",
+          "LocalizedString": "Silver Rank"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "rank_10_text",
+          "SourceString": "Reach Rank 10",
+          "LocalizedString": "Reach Rank 10"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Silver-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Silver-Rank.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Silver-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Silver-Rank.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "rank"
+      },
+      "rank_5": {
+        "Name": "rank_5",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "rank_5_title",
+          "SourceString": "Gold Rank",
+          "LocalizedString": "Gold Rank"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "rank_5_text",
+          "SourceString": "Reach Rank 5",
+          "LocalizedString": "Reach Rank 5"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Gold-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Gold-Rank.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Gold-Rank'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Gold-Rank.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "rank"
+      },
+      "oc": {
+        "Name": "oc",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "oc_title",
+          "SourceString": "Field Marshal",
+          "LocalizedString": "Field Marshal"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "oc_text",
+          "SourceString": "Reach the Officer Club",
+          "LocalizedString": "Reach the Officer Club"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Field-Marshal'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Field-Marshal.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Field-Marshal'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Field-Marshal.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "oc"
+      },
+      "oc_3": {
+        "Name": "oc_3",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "oc_3_title",
+          "SourceString": "3rd Officer",
+          "LocalizedString": "3rd Officer"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "oc_3_text",
+          "SourceString": "Reach the Officer Club 3 times",
+          "LocalizedString": "Reach the Officer Club 3 times"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 3,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_3rd-Officer'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_3rd-Officer.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_3rd-Officer'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_3rd-Officer.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "oc"
+      },
+      "oc_10": {
+        "Name": "oc_10",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "oc_10_title",
+          "SourceString": "Officer Club",
+          "LocalizedString": "Officer Club"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "oc_10_text",
+          "SourceString": "Reach the Officer Club 10 times",
+          "LocalizedString": "Reach the Officer Club 10 times"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 10,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Officer-club'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Officer-club.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Officer-club'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Officer-club.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "oc"
+      },
+      "oc_12_streak": {
+        "Name": "oc_12_streak",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "oc_12_streak_title",
+          "SourceString": "Commander in Chief",
+          "LocalizedString": "Commander in Chief"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "oc_12_streak_text",
+          "SourceString": "Reach the Officer Club for 12 consecutive seasons",
+          "LocalizedString": "Reach the Officer Club for 12 consecutive seasons"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 12,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Commander-in-chief'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Commander-in-chief.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Commander-in-chief'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Commander-in-chief.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": "oc"
+      },
+      "100_dm": {
+        "Name": "100_dm",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "100_dm_title",
+          "SourceString": "Duty",
+          "LocalizedString": "Duty"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "100_dm_text",
+          "SourceString": "Complete 100 Daily Missions",
+          "LocalizedString": "Complete 100 Daily Missions"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnMissionFinished",
+        "counter": 100,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Duty'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Duty.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Duty'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Duty.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "500_inf": {
+        "Name": "500_inf",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "500_inf_title",
+          "SourceString": "Grinder",
+          "LocalizedString": "Grinder"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_inf_text",
+          "SourceString": "Destroy 500 Enemy Infantry",
+          "LocalizedString": "Destroy 500 Enemy Infantry"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Grinder'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Grinder.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Grinder'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Grinder.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "500_tank": {
+        "Name": "500_tank",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "500_tank_title",
+          "SourceString": "Tank Destroyer",
+          "LocalizedString": "Tank Destroyer"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_tank_text",
+          "SourceString": "Destroy 500 Enemy Tanks",
+          "LocalizedString": "Destroy 500 Enemy Tanks"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Tank-Destroyer'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Tank-Destroyer.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Destroyer'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Destroyer.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "500_art": {
+        "Name": "500_art",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "500_art_title",
+          "SourceString": "Preemptive Strike",
+          "LocalizedString": "Preemptive Strike"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_art_text",
+          "SourceString": "Destroy 500 Enemy Artillery",
+          "LocalizedString": "Destroy 500 Enemy Artillery"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Preemptive-Strike'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Preemptive-Strike.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Destroyer-1'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Destroyer-1.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "500_fighter": {
+        "Name": "500_fighter",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "500_fighter_title",
+          "SourceString": "Dogfighter",
+          "LocalizedString": "Dogfighter"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_fighter_text",
+          "SourceString": "Destroy 500 Enemy Fighters",
+          "LocalizedString": "Destroy 500 Enemy Fighters"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Dogfighter'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Dogfighter.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Dogfighter'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Dogfighter.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "500_bomb": {
+        "Name": "500_bomb",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "500_bomb_title",
+          "SourceString": "Anti Aircraft ",
+          "LocalizedString": "Anti Aircraft "
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "500_bomb_text",
+          "SourceString": "Destroy 500 Enemy Bombers",
+          "LocalizedString": "Destroy 500 Enemy Bombers"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 500,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Anti-Aircraft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Anti-Aircraft.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Anti-Aircraft'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Anti-Aircraft.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "5000_units": {
+        "Name": "5000_units",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "5000_units_title",
+          "SourceString": "Mass Destruction",
+          "LocalizedString": "Mass Destruction"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "5000_units_text",
+          "SourceString": "Destroy 5000 Enemy Units",
+          "LocalizedString": "Destroy 5000 Enemy Units"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 5000,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Mass-Destruction'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Mass-Destruction.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Mass-Destruction'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Mass-Destruction.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "leo": {
+        "Name": "leo",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "leo_title",
+          "SourceString": "Boomerang",
+          "LocalizedString": "Boomerang"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "leo_text",
+          "SourceString": "Bounce Leopold with Leopold",
+          "LocalizedString": "Bounce Leopold with Leopold"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnPlayedFromHand",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Boomerang'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Boomerang.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Boomerang'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Boomerang.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "1_left": {
+        "Name": "1_left",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "1_left_title",
+          "SourceString": "Thin Red Line",
+          "LocalizedString": "Thin Red Line"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "1_left_text",
+          "SourceString": "Win a game with only 1 defense remaining on your HQ",
+          "LocalizedString": "Win a game with only 1 defense remaining on your HQ"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_you-should-see-the-other-guy'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_you-should-see-the-other-guy.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_you-should-see-the-other-guy'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_you-should-see-the-other-guy.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "no_front": {
+        "Name": "no_front",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "no_front_title",
+          "SourceString": "The Coward",
+          "LocalizedString": "The Coward"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "no_front_text",
+          "SourceString": "Win a battle without taking the frontline",
+          "LocalizedString": "Win a battle without taking the frontline"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_The-Coward'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_The-Coward.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_The-Coward'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_The-Coward.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": false,
+        "Group": ""
+      },
+      "7_cost": {
+        "Name": "7_cost",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "7_cost_title",
+          "SourceString": "David and Goliath",
+          "LocalizedString": "David and Goliath"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "7_cost_text",
+          "SourceString": "Destroy a 7+ cost unit with a unit that costs 1 or less",
+          "LocalizedString": "Destroy a 7+ cost unit with a unit that costs 1 or less"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Davith-and-goliath'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Davith-and-goliath.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Davith-and-goliath'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Davith-and-goliath.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "kill_my_hq": {
+        "Name": "kill_my_hq",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "kill_my_hq_title",
+          "SourceString": "I dropped my grenade",
+          "LocalizedString": "I dropped my grenade"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "kill_my_hq_text",
+          "SourceString": "Destroy your HQ in your own turn",
+          "LocalizedString": "Destroy your HQ in your own turn"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_I-dropped-my-grenade'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_I-dropped-my-grenade.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_I-dropped-my-grenade'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_I-dropped-my-grenade.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "20_damage": {
+        "Name": "20_damage",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "20_damage_title",
+          "SourceString": "Supersoldier",
+          "LocalizedString": "Supersoldier"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "20_damage_text",
+          "SourceString": "Deal 20 or more damage in one attack",
+          "LocalizedString": "Deal 20 or more damage in one attack"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnDealDamage",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_supersoldier'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_supersoldier.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_supersoldier'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_supersoldier.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "no_cards": {
+        "Name": "no_cards",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "no_cards_title",
+          "SourceString": "Last Man Standing",
+          "LocalizedString": "Last Man Standing"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "no_cards_text",
+          "SourceString": "Win a battle where both players have no cards left in their decks",
+          "LocalizedString": "Win a battle where both players have no cards left in their decks"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Last-man-standing'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Last-man-standing.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Last-man-standing'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Last-man-standing.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "hq_40": {
+        "Name": "hq_40",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "hq_40_title",
+          "SourceString": "The Fortress",
+          "LocalizedString": "The Fortress"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "hq_40_text",
+          "SourceString": "Win a battle where your HQ has 40 or more defense",
+          "LocalizedString": "Win a battle where your HQ has 40 or more defense"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_the-Fortress'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_the-Fortress.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_the-Fortress'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_the-Fortress.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "3_salvage": {
+        "Name": "3_salvage",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "5_salvage_title",
+          "SourceString": "Makeshift Army",
+          "LocalizedString": "Makeshift Army"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "5_salvage_text",
+          "SourceString": "Win a battle where you have 3 or more Salvaged units on the battlefield",
+          "LocalizedString": "Win a battle where you have 3 or more Salvaged units on the battlefield"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Makeshif-Army'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Makeshif-Army.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Makeshif-Army'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Makeshif-Army.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "1st_turn_unit": {
+        "Name": "1st_turn_unit",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "1st_turn_unit_title",
+          "SourceString": "The Immortal",
+          "LocalizedString": "The Immortal"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "1st_turn_unit_text",
+          "SourceString": "Play a unit in your first turn and win the battle with the unit still alive",
+          "LocalizedString": "Play a unit in your first turn and win the battle with the unit still alive"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::AtEndOfGame",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_the-immortal'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_the-immortal.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_the-immortal'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_the-immortal.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": false,
+        "Group": ""
+      },
+      "3_elite": {
+        "Name": "3_elite",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "3_elite_title",
+          "SourceString": "Hallucinations",
+          "LocalizedString": "Hallucinations"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "3_elite_text",
+          "SourceString": "Play 3 or more copies of an Elite unit during one battle",
+          "LocalizedString": "Play 3 or more copies of an Elite unit during one battle"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnPlayedFromHand",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Hallucinations'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Hallucinations.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Hallucinations'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Hallucinations.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "last_man": {
+        "Name": "last_man",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "last_man_title",
+          "SourceString": "Total Annihilation",
+          "LocalizedString": "Total Annihilation"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "last_man_text",
+          "SourceString": "Use TO THE LAST MAN to destroy 10 or more units",
+          "LocalizedString": "Use TO THE LAST MAN to destroy 10 or more units"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnPlayedFromHand",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Total-Annihilation'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Total-Annihilation.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Total-Annihilation'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Total-Annihilation.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "envelop_5": {
+        "Name": "envelop_5",
+        "title": {
+          "Namespace": "Achievements",
+          "Key": "envelop_5_title",
+          "SourceString": "Classic Blunder",
+          "LocalizedString": "Classic Blunder"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "envelop_5_text",
+          "SourceString": "Use ENVELOP to kill 5 units at the same time",
+          "LocalizedString": "Use ENVELOP to kill 5 units at the same time"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Classic-blunder'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Classic-blunder.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Last-man-standing-1'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Last-man-standing-1.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "naval_eng": {
+        "Name": "naval_eng",
+        "title": {
+          "Namespace": "",
+          "Key": "0F19CEB0466473F2E82A9DBA72B36593",
+          "SourceString": "Logistician",
+          "LocalizedString": "Logistician"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "naval_eng_text",
+          "SourceString": "Repair 4 units and destroy 4 units with NAVAL ENGAGEMENT",
+          "LocalizedString": "Repair 4 units and destroy 4 units with NAVAL ENGAGEMENT"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnPlayedFromHand",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Naval-Engagement'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Naval-Engagement.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Naval-Engagement'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Naval-Engagement.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": true,
+        "Group": ""
+      },
+      "hq_1_damage": {
+        "Name": "hq_1_damage",
+        "title": {
+          "Namespace": "",
+          "Key": "A3FFE65E41C292A5F36132802EDA2DD8",
+          "SourceString": "Tic Tac",
+          "LocalizedString": "Tic Tac"
+        },
+        "Text": {
+          "Namespace": "Achievements",
+          "Key": "hq_1_damage_text",
+          "SourceString": "Destroy the enemy HQ without dealing more than 1 damage to it during the battle",
+          "LocalizedString": "Destroy the enemy HQ without dealing more than 1 damage to it during the battle"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::OnCardDestruction",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Destroy-HQ-Only-Deal-1'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Destroy-HQ-Only-Deal-1.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Destroy-HQ-Only-Deal-1'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Destroy-HQ-Only-Deal-1.0"
+        },
+        "position": -1,
+        "is_hidden": true,
+        "Enabled": false,
+        "Group": ""
+      },
+      "set_base_cards": {
+        "Name": "set_base_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "5F8B9E9A41E2C213B9865992F3ABC9C7",
+          "SourceString": "Base set",
+          "LocalizedString": "Base set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "1359202E4A6C35CDF7062285DA450560",
+          "SourceString": "Collect all Base cards",
+          "LocalizedString": "Collect all Base cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_base'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_base.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_base'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_base.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_alleg_cards": {
+        "Name": "set_alleg_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "D3B3B496491E6C7EFE815BA9308E6787",
+          "SourceString": "Allegiance Set",
+          "LocalizedString": "Allegiance Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "0868CBAB4392313704ECB58EF83B8B9E",
+          "SourceString": "Collect all Allegiance cards",
+          "LocalizedString": "Collect all Allegiance cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Allegiance'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Allegiance.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Allegiance'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Allegiance.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_break_cards": {
+        "Name": "set_break_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "870C27CF497B37A0903A0EBF3F2ED77A",
+          "SourceString": "Breakthrough Set",
+          "LocalizedString": "Breakthrough Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "F99946B8462124770BAB4EA6F8BBBCB3",
+          "SourceString": "Collect all Breakthrough cards",
+          "LocalizedString": "Collect all Breakthrough cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Breakthrough'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Breakthrough.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Breakthrough'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Breakthrough.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_legions_cards": {
+        "Name": "set_legions_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "4FEE5AA54B6D0BE5F3092B8795A5DC7A",
+          "SourceString": "Legions Set",
+          "LocalizedString": "Legions Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "80037A8B44264534C5F0F3B3D39F7BD1",
+          "SourceString": "Collect all Legions cards",
+          "LocalizedString": "Collect all Legions cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Legions'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Legions.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Legions'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Legions.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_bia_cards": {
+        "Name": "set_bia_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "44A4F365416EC162052A2E8632C24D02",
+          "SourceString": "Brothers in Arms Set",
+          "LocalizedString": "Brothers in Arms Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "A17C49A84C21F0FA1D7209BBB1534100",
+          "SourceString": "Collect all Brothers in Arms cards",
+          "LocalizedString": "Collect all Brothers in Arms cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Brothers-in-Arms'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Brothers-in-Arms.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Brothers-in-Arms'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Brothers-in-Arms.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_ww_cards": {
+        "Name": "set_ww_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "44F7C43B4D359E2BA531C48E0E5B83B0",
+          "SourceString": "Winter War Set",
+          "LocalizedString": "Winter War Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "71F9B596400AF3E52236A39CFC1EFB8B",
+          "SourceString": "Collect all Winter War cards",
+          "LocalizedString": "Collect all Winter War cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Winter-War'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Winter-War.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Winter-War'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Winter-War.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_co_cards": {
+        "Name": "set_co_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "2751B55A445F213D8219288CAE2264C4",
+          "SourceString": "Covert Operations Set",
+          "LocalizedString": "Covert Operations Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "49A40A7046078F87634B87A0E88952C5",
+          "SourceString": "Collect all Covert Operations cards",
+          "LocalizedString": "Collect all Covert Operations cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_Covert'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_Covert.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_Covert'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_Covert.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_bandi_cards": {
+        "Name": "set_bandi_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "06B937CB438661DC9DA39688733ECC17",
+          "SourceString": "Blood & Iron Set",
+          "LocalizedString": "Blood & Iron Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "A4F4C2ED4A69C267E50636AC9756590C",
+          "SourceString": "Collect all Blood & Iron cards",
+          "LocalizedString": "Collect all Blood & Iron cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_blood-and-iron'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_blood-and-iron.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_blood-and-iron'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_blood-and-iron.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_nw_cards": {
+        "Name": "set_nw_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "3ADBE1CA4DA6687644496CA4CC2D0FCB",
+          "SourceString": "Naval Warfare Set",
+          "LocalizedString": "Naval Warfare Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "4F16ED1E4483947FF23631829BB2DF8B",
+          "SourceString": "Collect all Naval Warfare cards",
+          "LocalizedString": "Collect all Naval Warfare cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_naval-warfare'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_naval-warfare.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_naval-warfare'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_naval-warfare.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      },
+      "set_hf_cards": {
+        "Name": "set_hf_cards",
+        "title": {
+          "Namespace": "",
+          "Key": "0999601144964931A70088BE629937AF",
+          "SourceString": "Homefront Set",
+          "LocalizedString": "Homefront Set"
+        },
+        "Text": {
+          "Namespace": "",
+          "Key": "CE537A1241A7D9050AA992A0FC6D2771",
+          "SourceString": "Collect all Homefront cards",
+          "LocalizedString": "Collect all Homefront cards"
+        },
+        "Triggers": "EDailyMissionTriggersEnum::NotAvailable",
+        "counter": 1,
+        "BackgroundImage": {
+          "ObjectName": "Texture2D'T_Achievement_Medal_homefront'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Medals/T_Achievement_Medal_homefront.0"
+        },
+        "ribbonImage": {
+          "ObjectName": "Texture2D'T_Achievement_Ribbon_homefront'",
+          "ObjectPath": "kards/Content/Assets/Textures/Achievements/Ribbons/T_Achievement_Ribbon_homefront.0"
+        },
+        "position": -1,
+        "is_hidden": false,
+        "Enabled": true,
+        "Group": ""
+      }
+    }
+  }
+]
